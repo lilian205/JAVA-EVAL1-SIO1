@@ -1,11 +1,12 @@
 package com.sio;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Main {
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
     private static final String GREEN = "\u001B[32m";
-    private static String RESET = "\u001B[0m";
+    private static final String RESET = "\u001B[0m";
 
     public static void main(String[] args) {
         System.out.println(GREEN);
@@ -31,22 +32,32 @@ public class Main {
                     System.out.println("---------------------------------------------");
                     System.out.println("Exercice 1");
                     System.out.println("---------------------------------------------");
-                    //TODO Exercice 1 : Entrer votre code ici
-                    System.out.println("---------------------------------------------");
+                    //Exercice 1 : Entrer votre code ici
 
+
+
+                    System.out.println("---------------------------------------------");
                     break;
                 case 2:
                     System.out.println("---------------------------------------------");
                     System.out.println("Exercice 2");
                     System.out.println("---------------------------------------------");
-                    //TODO Exercice 2 : Entrer votre code ici
+                    //Exercice 2 : Entrer votre code ici
+
+
+
+
                     System.out.println("---------------------------------------------");
                     break;
                 case 3:
                     System.out.println("---------------------------------------------");
                     System.out.println("Exercice 3");
                     System.out.println("---------------------------------------------");
-                    //TODO Exercice 3 : Entrer votre code ici
+                    //Exercice 3 : Entrer votre code ici
+
+
+
+
                     System.out.println("---------------------------------------------");
 
                     break;
@@ -54,7 +65,11 @@ public class Main {
                     System.out.println("---------------------------------------------");
                     System.out.println("Exercice 4");
                     System.out.println("---------------------------------------------");
-                    //TODO Exercice 4 : Entrer votre code ici
+                    //Exercice 4 : Entrer votre code ici
+
+
+
+
                     System.out.println("---------------------------------------------");
                     break;
                 case 0:
